@@ -1,0 +1,27 @@
+.doptech{ 
+    margin-top: var(--margin-top);
+    padding-bottom: 40px;
+}
+h2{
+
+}
+.doptech__words{
+    margin-top: var(--margin-top);
+    margin-left: var(--margin-list);
+    color: white;
+    columns: 3;
+    font-size: 24px;
+}
+.doptech__words li{
+    margin-bottom: 17px;
+}
+@media (max-width:720px) {
+    .doptech__words{
+        columns: 2;
+    }
+}
+@media (max-width: 400px) {
+    .doptech__words{
+        columns: 1;
+    }
+}

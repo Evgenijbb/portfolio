@@ -1,0 +1,31 @@
+.technologies {
+    margin-top: 166px;
+}
+.technologies-list {
+    margin-top: var(--margin-top);
+    margin-left: var(--margin-list);
+}
+.technologies-item {
+    margin-top: 30px;
+}
+.technologies-item__top {
+    display: flex;
+    justify-content: space-between;
+
+}
+.technologies-item__bottom {
+    width: 100%;
+    background: #162950;
+    height: 50px;
+    border-radius: 83px;
+    height: 25px;
+}
+.technologies-item__level {
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    height: 100%;
+    width: 22%;
+    border-radius: 83px;
+}
+.technologies-item__bottom:hover{
+    box-shadow: 5px 6px 7px 2px rgb(75, 125, 191);
+}
