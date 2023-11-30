@@ -23,6 +23,9 @@
     gap: 18px;
     overflow: scroll;
 }
+.maininfo-list::-webkit-scrollbar{
+    width: 0;
+}
 .maininfo__line{
     height: 9px;
     background-color: white;

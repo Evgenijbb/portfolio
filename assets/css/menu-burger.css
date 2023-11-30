@@ -1,0 +1,65 @@
+.menu-burger{
+    display: none;
+}
+.menu-label{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    transition: 1s;
+    transform: rotate(0);
+}
+.menu-label span{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    position: relative;
+}
+.menu-label span::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -10px;
+}
+.menu-label span::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10px;
+}
+.menu-box{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(55, 52, 52);
+    z-index: 99;
+    transition: 0.5s;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .menu-box{
+    right: 0;
+}
+#check:checked ~ .menu-label{
+    transform: rotate(360deg);
+}
+@media (max-width:768px){
+    .menu-burger{
+        display: block;
+    }
+}

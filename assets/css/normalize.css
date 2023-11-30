@@ -12,6 +12,7 @@
 html,body{
     background-color: #0F1624;
     overflow-x: hidden;
+    max-width: 100vw;
 }
 h1,h2,h3,h4,p{
     color: #FFF;
