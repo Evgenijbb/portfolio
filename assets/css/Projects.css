@@ -20,7 +20,7 @@
     border-radius: 50px 0px;
     box-shadow: 0px 0px 12px 0px #FFF;
     padding:25px;
-    background-color: #0F1624;
+    background-color: var(--background);
 }
 .Project-item p {
     overflow: hidden;

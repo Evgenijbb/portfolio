@@ -2,6 +2,10 @@
     --gradient:linear-gradient(270deg, #c71313 0%, #6978D1 66.67%, #945DD6 100%);
     --margin-list:40px;
     --margin-top:60px;
+    /* --background:#c3d4f5;
+    --text:#2e2c38; */
+    --background:#0F1624;
+    --text:#FFF;
 }
 *{
     margin: 0;
@@ -10,12 +14,12 @@
     font-family: 'Comfortaa', cursive;
 }
 html,body{
-    background-color: #0F1624;
+    background-color: var(--background);
     overflow-x: hidden;
     max-width: 100vw;
 }
 h1,h2,h3,h4,p{
-    color: #FFF;
+    color: var(--text);
     font-style: normal;
     font-weight: 600;
     line-height: normal;

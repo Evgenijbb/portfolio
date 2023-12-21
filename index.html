@@ -7,6 +7,7 @@
     <script defer src="./assets/js/project.js"></script>
     <script defer src="./assets/js/technologies.js"></script>
     <script defer src="./assets/js/doptech.js"></script>
+    <script defer src="./assets/js/theme.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,15 +23,19 @@
         <h3>Portfolio</h3>
       </div>
       <nav class="header-nav">
-        <a href=""><h3>Projects</h3></a>
-        <a href=""><h3>Technologies</h3></a>
-        <a href=""><h3>About me</h3></a>
+        <h3 id="Projects">Projects</h3></a>
+        <h3 id="Technologies">Technologies</h3></a>
+        <h3 id="About me">About me</h3></a>
       </nav>
       <div class="header-social">
         <a href=""><img src="./assets/img/git.svg" alt=""></a>
         <a href=""><img src="./assets/img/tg.svg" alt=""></a>
         <a href=""><img src="./assets/img/figma.svg" alt=""></a>
       </div>
+      <input type="checkbox" name="lightmode" id="lightmode">
+      <label class="lightmode" for="lightmode">
+        <div class="lightmode-swith"></div>
+      </label>
     </header>
     <header class="menu-burger">
       <input type="checkbox" id="check">
